@@ -1,0 +1,149 @@
+/* ---Font--- */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* ---Colors--- */
+:root {
+--Yellow: hsl(47, 88%, 63%);
+--White: hsl(0, 0%, 100%);
+--Gray500: hsl(0, 0%, 42%);
+--Gray950: hsl(0, 0%, 7%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn:hover {
+  cursor: url(./images/pointer-icon.png) 12 3, auto;
+}
+
+
+/* *** BODY *** */
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-color: var(--Yellow);
+  }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 384px;
+  height: auto;
+  padding: 24px;
+  gap: 24px;
+  
+  font-family: 'Figtree', sans-serif;
+  line-height: 150%;
+
+  background-color: var(--White);
+  border: 1px solid var(--Gray950);
+  border-radius: 20px;
+  box-shadow: 8px 8px black;
+}
+
+.card__image {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.content__top-btn {
+  padding: 4px 12px;
+  width: max-content;
+  
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+
+  color: var(--Gray950);
+  text-decoration: none;
+  background-color: var(--Yellow);
+}
+.content__top-btn:hover {
+  color: var(--Yellow);
+  background-color: var(--Gray950);
+}
+
+.content__date {
+  font-size: 14px;
+}
+
+.content__title {
+  font-size: 24px;
+  font-weight: bold;
+}
+ 
+.content__title-link {
+  text-decoration: none;
+  color: var(--Gray950);
+}
+.content__title-link:hover {
+  color: var(--Yellow);
+}
+
+.content__text {
+  font-size: 16px;
+  color: var(--Gray500);
+}
+
+.content__bottom-btn{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: max-content;
+
+  font-size: 14px;
+  font-weight: bold;
+  
+  text-decoration: none;
+  color: var(--Gray950);
+}
+.content__bottom-btn:hover {
+  color: var(--Yellow);
+}
+
+.bottom-btn__image {
+  width: 32px;
+  height: 32px;
+ }
+
+/* *** Mobile version 576px */
+
+@media (max-width: 576px) {
+  .card {
+    width: 327px;
+  } 
+  
+  .card__image {
+    min-height: 200px;
+  }
+
+  .content__top-btn {
+    font-size: 12px;
+  }
+  
+  .content__date {
+    font-size: 12px;
+  }
+  
+  .content__title {
+    font-size: 20px;
+  }
+ 
+  .content__text {
+    font-size: 14px;
+  }
+}

@@ -8,17 +8,17 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 ## 📸 Screenshots
 
 ### Desktop
-![Desktop screenshot](.preview/desktop-preview.jpg)
+![Desktop screenshot](./preview/desktop-preview.jpg)
 
 ### Mobile
-![Mobile screenshot](.preview/mobile-preview.jpg)
+![Mobile screenshot](./preview/mobile-preview.jpg)
 
 ---
 
 ## 🔗 Links
 
-- Solution URL: [Add your solution URL here](https://www.frontendmentor.io/solutions/blog-preview-card-with-hover-effects-and-mobile-first-css-f8TU6SVDfC)
-- Live Site URL: [Add live site URL here](https://artkozyr.github.io/blog-preview-card/)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/blog-preview-card-with-hover-effects-and-mobile-first-css-f8TU6SVDfC)
+- Live Site URL: [Live Demo](https://artkozyr.github.io/blog-preview-card/)
 
 ---
 
